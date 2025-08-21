@@ -19,13 +19,19 @@ jobs:
         dotnet-version: '9.0.x' 
 
     - name: Restore dependencies
-      run: dotnet restore
+      working-directory: dbis-ondc-wrapper-api
+      run: dotnet restore ONDCPoC.sln
+
 
     - name: Build
-      run: dotnet build --configuration Release
+      working-directory: dbis-ondc-wrapper-api
+      run: dotnet build ONDCPoC.sln --configuration Release
+
 
     - name: Publish
-      run: dotnet publish -c Release -o ./publish
+      working-directory: dbis-ondc-wrapper-api
+      run: dotnet publish ONDCPoC.sln -c Release -o ../publish
+
 
     - name: Zip published files
       run: Compress-Archive -Path ./publish/* -DestinationPath deploy.zip
