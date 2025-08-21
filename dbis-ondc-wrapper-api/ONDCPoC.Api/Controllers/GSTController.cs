@@ -79,7 +79,7 @@ namespace ONDCPoC.Api.Controllers
                     StateJurisdiction = "Raipur Zone",
                     CentralJurisdiction = "CGST Raipur",
                     ValidFrom = "01-07-2017",
-                    ValidTo = "N/A",
+                    ValidTo = "",
                     Timestamp = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss")
                 },
                 new GstExportModel
@@ -95,7 +95,7 @@ namespace ONDCPoC.Api.Controllers
                     StateJurisdiction = "Mumbai Zone",
                     CentralJurisdiction = "CGST Mumbai",
                     ValidFrom = "01-04-2018",
-                    ValidTo = "N/A",
+                    ValidTo = "",
                     Timestamp = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss")
                 },
 
@@ -112,7 +112,7 @@ namespace ONDCPoC.Api.Controllers
                     StateJurisdiction = "Mumbai Zone",
                     CentralJurisdiction = "CGST Mumbai",
                     ValidFrom = "01-04-2018",
-                    ValidTo = "N/A",
+                    ValidTo = "",
                     Timestamp = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss")
                 },
 
@@ -129,7 +129,7 @@ namespace ONDCPoC.Api.Controllers
                     StateJurisdiction = "Mumbai Zone",
                     CentralJurisdiction = "CGST Mumbai",
                     ValidFrom = "01-04-2018",
-                    ValidTo = "N/A",
+                    ValidTo = "",
                     Timestamp = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss")
                 },
 
@@ -146,7 +146,7 @@ namespace ONDCPoC.Api.Controllers
                     StateJurisdiction = "Mumbai Zone",
                     CentralJurisdiction = "CGST Mumbai",
                     ValidFrom = "01-04-2018",
-                    ValidTo = "N/A",
+                    ValidTo = "",
                     Timestamp = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss")
                 },
 
@@ -163,7 +163,7 @@ namespace ONDCPoC.Api.Controllers
                     StateJurisdiction = "Mumbai Zone",
                     CentralJurisdiction = "CGST Mumbai",
                     ValidFrom = "01-04-2018",
-                    ValidTo = "N/A",
+                    ValidTo = "",
                     Timestamp = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss")
                 },
 
@@ -180,7 +180,7 @@ namespace ONDCPoC.Api.Controllers
                     StateJurisdiction = "Mumbai Zone",
                     CentralJurisdiction = "CGST Mumbai",
                     ValidFrom = "01-04-2018",
-                    ValidTo = "N/A",
+                    ValidTo = "",
                     Timestamp = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss")
                 },
 
@@ -197,7 +197,7 @@ namespace ONDCPoC.Api.Controllers
                     StateJurisdiction = "Mumbai Zone",
                     CentralJurisdiction = "CGST Mumbai",
                     ValidFrom = "01-04-2018",
-                    ValidTo = "N/A",
+                    ValidTo = "",
                     Timestamp = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss")
                 },
 
@@ -214,7 +214,7 @@ namespace ONDCPoC.Api.Controllers
                     StateJurisdiction = "Mumbai Zone",
                     CentralJurisdiction = "CGST Mumbai",
                     ValidFrom = "01-04-2018",
-                    ValidTo = "N/A",
+                    ValidTo = "",
                     Timestamp = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss")
                 }
             };
