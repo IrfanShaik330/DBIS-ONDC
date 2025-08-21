@@ -30,7 +30,7 @@ jobs:
     - name: Zip published files
       run: Compress-Archive -Path ./publish/* -DestinationPath deploy.zip
 
-    - name: Deploy to Elastic Beanstalk
+    - name: Deployment to Elastic Beanstalk
       uses: einaregilsson/beanstalk-deploy@v21
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
