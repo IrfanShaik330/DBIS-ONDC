@@ -39,8 +39,7 @@ jobs:
         environment_name: Deploy-env
         region: ${{ secrets.AWS_REGION }}
         version_label: ${{ github.sha }}
-<<<<<<< HEAD
         deployment_package: deploy.zip
-=======
-        deployment_package: deploy.zip
->>>>>>> 1131e06e466b04ee4ab56c24659dba2d33cd0563
+
+        
+
