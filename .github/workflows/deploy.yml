@@ -29,12 +29,12 @@ jobs:
 
 
     - name: Publish
-      working-directory: dbis-ondc-wrapper-api
-      run: dotnet publish ONDCPoC.sln -c Release -o ../publish
+      working-directory: dbis-ondc-wrapper-api/ONDCPoC.Api
+      run: dotnet publish ONDCPoC.Api.csproj -c Release -o ../../publish
 
 
     - name: Zip published files
-      run: Compress-Archive -Path ./publish/* -DestinationPath deploy.zip
+      run: Compress-Archive -Path publish/* -DestinationPath deploy.zip
 
     - name: Deployment to Elastic Beanstalk
       uses: einaregilsson/beanstalk-deploy@v21
