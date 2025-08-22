@@ -34,7 +34,8 @@ jobs:
 
 
     - name: Zip published files
-      run: Compress-Archive -Path publish/* -DestinationPath deploy.zip
+      run: Compress-Archive -Path publish/* -DestinationPath deploy.zip -Force
+
 
     - name: Deployment to Elastic Beanstalk
       uses: einaregilsson/beanstalk-deploy@v21
